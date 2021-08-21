@@ -6,8 +6,17 @@
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "repository": "https://github.com/mdxprograms/@wallerbuilt/mantle2",
+  "author": "Josh Waller",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "typescript",
+    "event-driven",
+    "dom",
+    "minimal",
+    "ui",
+    "javascript-library"
+  ],
   "scripts": {
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
@@ -92,7 +101,7 @@
     }
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": false
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
